@@ -1,0 +1,6 @@
+framework module ForteExFramework {
+  umbrella header "ForteExFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

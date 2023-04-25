@@ -1,0 +1,22 @@
+{
+  "name": "ForteExFramework",
+  "version": "0.1.0",
+  "summary": "A short description of ForteExFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ernurbau@gmail.com/ForteExFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ernurbau@gmail.com": "yeastanakulov@one.kz"
+  },
+  "source": {
+    "git": "https://github.com/ernurbau@gmail.com/ForteExFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ForteExFramework/Classes/**/*"
+}

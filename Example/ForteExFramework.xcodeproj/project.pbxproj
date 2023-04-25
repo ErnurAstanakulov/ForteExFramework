@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A33369935C387110D58DC78 /* ForteExFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ForteExFramework.podspec; path = ../ForteExFramework.podspec; sourceTree = "<group>"; };
+		0A33369935C387110D58DC78 /* ForteExFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ForteExFramework.podspec; path = ../ForteExFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B4FBEBA02104FE902974DB1 /* Pods_ForteExFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForteExFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BB8BCDF21CA60CEF6112AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36BB8BCDF21CA60CEF6112AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3DF54BAA3175B298786747B0 /* Pods_ForteExFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForteExFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAA73C438693136FDB6D527 /* Pods-ForteExFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForteExFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-ForteExFramework_Example/Pods-ForteExFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59A6B00E1987B805B02D3884 /* Pods-ForteExFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForteExFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-ForteExFramework_Example/Pods-ForteExFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A4B0DD40FEA4E5BC5E03B249 /* Pods-ForteExFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForteExFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ForteExFramework_Tests/Pods-ForteExFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B39E701058801A596B46CF23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B39E701058801A596B46CF23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0DD115A820E14AF2B5BA2D7 /* Pods-ForteExFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForteExFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-ForteExFramework_Tests/Pods-ForteExFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				A4B0DD40FEA4E5BC5E03B249 /* Pods-ForteExFramework_Tests.debug.xcconfig */,
 				E0DD115A820E14AF2B5BA2D7 /* Pods-ForteExFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
