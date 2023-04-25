@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ForteExFramework/Classes/**/*'
+  s.source_files = 'Sources/ForteExFramework/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ForteExFramework' => ['ForteExFramework/Assets/*.png']
